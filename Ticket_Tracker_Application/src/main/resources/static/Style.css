@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/*Styling in Welcome page*/
+
+.welcomeBody{
+	background-color: #f5f5f5;
+}
+.welcomeHeader{background-color: black;
+ color: white; 
+ padding: 25px;
+ }
+ 
+ .welcomeHeader_b{
+ font-size: 30px;
+ }
+ 
+ .welcomeHeader_a{
+  padding : 30px;
+ }
+ .welcome_form{
+ 	padding-left: 35px;
+ } 
+.welcomeTable{
+	margin: auto;
+	width: 95%;
+	height: 50%;
+}
+.welcomeTableRow{
+	background-color: #333333;
+	color: #ffffff;
+}
+.deletebutton {
+	/* button styling */
+	background-color: red;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.editbutton {
+	/* button styling */
+	background-color: #3778C2;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.viewbutton {
+	/* button styling */
+	background-color: #009B77; color : white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+	margin: 4px 2px;
+	cursor: pointer;
+	color: white;
+}
+
+
+/*Styling in Create,Edit,View (Html Pages)*/
+.center {
+	
+	background-color: #f5f5f5;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-60%, -60%);
+	width: 500px;
+	height: 600px;
+	border: 2px solid black; /* border style */
+	padding: 20px;
+	margin: 20px;
+}
+
+.headertext {
+	text-align: center;
+}
+
+

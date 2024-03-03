@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+<body class="center">
+
+<header class="headertext"><h2>View Ticket</h2></header>
+<form action="Welcome1" method="post" >
+
+	<label>Id :</label>
+	<br>
+	<input type="number" readonly name="id" th:value="${tickets.id}"/>
+	<br><br>
+	
+	<label>Ticket Title:</label>
+	<br>
+	<input type="text" readonly name="title" th:value="${tickets.title}"/>
+	<br><br>
+	
+	<label for="description">Ticket Short Description :</label>
+	<br>
+	<textarea id="description" readonly name="description"  rows="5" cols="50" maxlength="650" th:field= "${tickets.description}"></textarea><br>
+	<br><br>
+	
+	<label for="content">Content :</label>
+	<br>
+	<textarea id="content" readonly name="content"  rows="8" cols="50" maxlength="1000" th:field= "${tickets.content}" ></textarea><br>
+	<br><br>
+	
+	<label>Ticket Created :</label>
+	<br>
+	<input type="date" readonly name="date" th:value="${tickets.date}"/>
+	<br><br>	
+	
+	<button type="submit">Return</button>
+</form>
+</body>
+</html>
